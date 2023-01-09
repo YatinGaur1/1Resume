@@ -1,0 +1,37 @@
+/* external css
+ body{
+    background:#d8c8c8;
+ } */
+ /* UNIVERSAL SELECTOR This is give to all parts of website we used it to give the marrging and padding because browser give the marraging and padding automatically to remove this problem  */
+  *{
+   padding: 0%;
+
+ } 
+ /* class selector syntax=.class name 
+ class would be same of more than one element
+ hence we use id attributes
+ */
+ .one{
+   color: #1224a9;
+   font-size: 50px;
+ }
+ /* id selector syntax=#idname id must be same*/
+ #two{
+  background: #760606;
+ }
+ /* tag/element selector syntax=element name only */
+  p{
+   color: #eb1ecc;
+ }
+ /* group selector it include may be class,id,tag/element */
+ #two,#three,#four,#five,ol{
+  font-size: 35px;
+ }
+ /* marging =outergap and padding=inner gap */
+ .border{
+  border: 3px solid #808080;
+  font-size: 25px;
+  color: #ad6513;
+  margin: 50px;
+  padding: 50px ;
+ }
